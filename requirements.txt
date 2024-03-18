@@ -1,0 +1,5 @@
+Image==1.5.33
+matplotlib==3.5.2
+opencv-python==4.8.0.74
+Pillow==9.3.0
+matplotlib==3.5.2
