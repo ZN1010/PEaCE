@@ -3,7 +3,7 @@
 Code to recreate PEaCE dataset for LREC-COLING 2024 paper [PEaCE: A Chemistry-Oriented Dataset for Optical Character Recognition on Scientific Documents](). 
 
 # Obtain Existing PEaCE Dataset
-The original dataset of 1M+ records can be found [here](https://pennstateoffice365-my.sharepoint.com/:f:/g/personal/njz5124_psu_edu/EmBXU7K_g6RMvo2EaRyZ-hcB-t3JSiNAemX_y1XAJD12xA?e=145D6G).
+The original dataset of 1M+ records can be found [here](https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/njz5124_psu_edu/ESmEFZMuTK5EnQ2sHLWvDs8BWosWkCHUEvgeQCcdIJq8LA?e=qDMfty).
 The file can be de-compressed by executing the following command: `tar -xzvf PEaCE.tar.gz`. 
 The file is structured as follows:
 - PEaCE
@@ -75,4 +75,4 @@ Superscripts are added to each record with 5% probability, subscripts with 2.5% 
 Each chemical equation will contain upto 6 compound, and each numerical record will contain upto 3 numerals/LaTex symbols. 
 Records will be rendered with either `Noto Mono` or `URW Bookman` in one of three fontsizes, with the larger fontsizes having a larger weight for sampling. 
 
-## Citing
+## Citation
