@@ -15,11 +15,11 @@ from src import PrintedEnglishMaker, ChemEqNumeralMaker
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--arxiv_data1', default='/home/czh/md0/datasets/arxiv-dataset/test.txt')
-    parser.add_argument('--arxiv_data2', default='/home/czh/md0/datasets/arxiv-dataset/val.txt')
+    parser.add_argument('--arxiv_data1', default='data/arxiv-dataset/test.txt')
+    parser.add_argument('--arxiv_data2', default='data/arxiv-dataset/val.txt')
 
-    parser.add_argument('--pubmed_data', default='/home/czh/md0/datasets/pubmed-dataset/test.txt')
-    parser.add_argument('--chemrxiv_data', default='/home/czh/md0/datasets/chemrxiv_dataset/chemrxiv_2023-06-01.jsonl')
+    parser.add_argument('--pubmed_data', default='data/pubmed-dataset/test.txt')
+    parser.add_argument('--chemrxiv_data', default='data/chemrxiv_dataset/chemrxiv_2023-06-01.jsonl')
 
     parser.add_argument('--out', default='created_records/')
 
