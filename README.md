@@ -1,6 +1,6 @@
 # PEaCE
 
-Code to recreate PEaCE dataset for LREC-COLING 2024 paper [PEaCE: A Chemistry-Oriented Dataset for Optical Character Recognition on Scientific Documents](). 
+Code to recreate PEaCE dataset for LREC-COLING 2024 paper [PEaCE: A Chemistry-Oriented Dataset for Optical Character Recognition on Scientific Documents](https://arxiv.org/abs/2403.15724). 
 
 # Obtain Existing PEaCE Dataset
 The original dataset of 1M+ records can be found [here](https://pennstateoffice365-my.sharepoint.com/:u:/g/personal/njz5124_psu_edu/ESmEFZMuTK5EnQ2sHLWvDs8BWosWkCHUEvgeQCcdIJq8LA?e=qDMfty).
