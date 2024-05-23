@@ -76,3 +76,28 @@ Each chemical equation will contain upto 6 compound, and each numerical record w
 Records will be rendered with either `Noto Mono` or `URW Bookman` in one of three fontsizes, with the larger fontsizes having a larger weight for sampling. 
 
 ## Citation
+```bibtex
+@inproceedings{zhang-etal-2024-peace-chemistry,
+    title = "{PE}a{CE}: A Chemistry-Oriented Dataset for Optical Character Recognition on Scientific Documents",
+    author = "Zhang, Nan  and
+      Heaton, Connor  and
+      Okonsky, Sean Timothy  and
+      Mitra, Prasenjit  and
+      Toraman, Hilal Ezgi",
+    editor = "Calzolari, Nicoletta  and
+      Kan, Min-Yen  and
+      Hoste, Veronique  and
+      Lenci, Alessandro  and
+      Sakti, Sakriani  and
+      Xue, Nianwen",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1110",
+    pages = "12679--12689",
+    abstract = "Optical Character Recognition (OCR) is an established task with the objective of identifying the text present in an image. While many off-the-shelf OCR models exist, they are often trained for either scientific (e.g., formulae) or generic printed English text. Extracting text from chemistry publications requires an OCR model that is capable in both realms. Nougat, a recent tool, exhibits strong ability to parse academic documents, but is unable to parse tables in PubMed articles, which comprises a significant part of the academic community and is the focus of this work. To mitigate this gap, we present the Printed English and Chemical Equations (PEaCE) dataset, containing both synthetic and real-world records, and evaluate the efficacy of transformer-based OCR models when trained on this resource. Given that real-world records contain artifacts not present in synthetic records, we propose transformations that mimic such qualities. We perform a suite of experiments to explore the impact of patch size, multi-domain training, and our proposed transformations, ultimately finding that models with a small patch size trained on multiple domains using the proposed transformations yield the best performance. Our dataset and code is available at https://github.com/ZN1010/PEaCE.",
+}
+
+```
